@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#navcell {
+    display: none;
+}
+#list {
+ display: none;
+ }
+ #list a {
+     display: none;
+ } 
+ #precomovel {
+  display: none;
+}
+#logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    top: 1vh;
+    position: relative;
+    font-size: 20px;
+    
+}
+#pedido{
+    display: none;
+    }
+#d1movel {
+    display: none;
+}
+
+#navpc {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(59, 2, 2);
+    height: 30px;
+    font-size: 1rem;
+ 
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 50%, 50%;
+    grid-auto-flow: column;
+}
+
+a {
+    position: relative;
+    top: 1vh;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+}
+
+p {
+    position: relative;
+    top: 28vh;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    top: 24vh;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+
+}
+
+span {
+    color: rgb(243, 158, 0);
+}
+
+#d1 {
+    height: 95vh;
+    flex-wrap: wrap;
+    background-color:rgb(41,2,0);
+    position: relative;
+    width: 500px;
+    left: 20px;
+ 
+}
+
+#preco {
+    position: relative;
+    top: 33vh;
+    text-align: center;
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(243, 158, 0);
+    width: 180px;
+    left: 150px;
+}
+
+#d2 {
+     background-image: url(ai-generated-8271284_1280-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-fotor-bg-remover-2023111618732.png);
+    position: relative;
+    height: 95vh;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    background-size: calc(160%);
+ 
+ 
+}
+
+#d2cell {
+    display: none;
+}
+
+body {
+    background-color: rgb(41,2,0);
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px) {
+
+    #preco {
+        left: 110px;
+        top: 32vh;
+    }
+
+    #d1 {
+        height: 85vh;
+        flex-wrap: wrap;
+        background-color:rgb(41,2,0);
+        position: relative;
+        width: 400px;
+    }
+
+    #d2 {
+        background-image: url(ai-generated-8271284_1280-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-fotor-bg-remover-2023111618732.png);
+        position: relative;
+        height: 85vh;
+        background-position-x: 50%;
+        background-position-y: 35%;
+        background-repeat: no-repeat;
+        background-size: calc(150%);
+        width: 380px;
+    
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:800px) {
+    #d1movel {
+        display: block;
+    }
+    #d1movel p{
+    position: relative;
+    top: 40px;
+    }
+    #logo {
+        position: relative;
+        top: -28px;
+        float: right;
+    }
+    .material-symbols-outlined {
+        cursor: pointer;
+        font-variation-settings:
+            'FILL'0,
+            'wght'400,
+            'GRAD'0,
+            'opsz'24
+    }
+    #x {
+        top: 10px;
+        position: relative;
+        left:40%;
+    }
+    #navpc {
+        display: none;
+    }
+
+    #navcell {
+    display: flex;
+    justify-content: space-between
+            
+        
+    }
+    #logo {
+        display: block;
+        top: 0px;
+       
+    }
+    #menudroid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list {
+        width: 00px;
+         position: fixed;
+         height: 100vh;
+         background-color: rgb(53, 3, 3);
+         overflow: hidden;
+         z-index: 1;
+         top: 0px;
+         left: 0px;
+         display: block;
+         transition: width 0.5s;
+     }
+     #list a {
+         color: rgb(255, 255, 255);
+         width: 00px;
+         display: block;
+         line-height: 50px;
+         left: 35%;
+     } 
+    #d1 {
+        display: none;
+    }
+
+    #d2 {
+        display: none;
+    }
+
+    #containermovel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #d1movel {
+        background-image: url(ai-generated-8271284_1280-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-fotor-bg-remover-2023111618732.png);
+        background-size: calc(100%);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 83vh;
+        background-position-x: 60%;
+        background-position-y: 30%;
+    }
+    #pedido {
+        position: relative;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        font-size: 20px;
+        background-color: orange;
+        top: -10vh;
+        left: 20px;
+        display: block;
+    }
+    h1 {
+        top: 20px;
+    }
+   
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    #navpc {
+        display: none;
+    }
+    #navcell {
+        display: flex;
+        justify-content: space-between
+        
+    }
+    #list {
+       width: 0px;
+        position: fixed;
+        height: 100vh;
+        background-color: rgb(53, 3, 3);
+        overflow: hidden;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        display: block;
+        transition: width 0.5s;
+    }
+    #d1movel p{
+        position: relative;
+        top: 40px;
+        }
+    #list a {
+        color: rgb(255, 255, 255);
+        display:block;
+        left: 33%;
+        line-height: 110px;
+    } 
+    #logo {
+        position: relative;
+        float: right;
+        top: 1px;
+    }
+    #container {
+        display: none;
+    }
+    #containermovel {
+        display: flex;
+        flex-direction: column;
+    }
+    #x {
+        top: 10px;
+        position: relative;
+        left:40%;
+    }
+    #d1movel {
+        background-image: url(ai-generated-8271284_1280-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-fotor-bg-remover-2023111618732.png);
+        background-size: calc(110%);
+        height: 85vh;
+        background-repeat: no-repeat;
+        background-position-x:70% ;
+        background-position-y: 40%;
+        display: block;
+    }
+    .material-symbols-outlined {
+        cursor: pointer;
+        font-variation-settings:
+            'FILL'0,
+            'wght'400,
+            'GRAD'0,
+            'opsz'24
+    }
+    #pedido {
+        position: relative;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        font-size: 15px;
+        background-color: orange;
+        top: -100px;
+        display: block;
+        left: 10
+    }
+    h1 {
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+    }
+}
