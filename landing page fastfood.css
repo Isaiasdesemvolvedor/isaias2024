@@ -97,12 +97,12 @@ span {
 #d2 {
      background-image: url(ai-generated-8271284_1280-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-PhotoRoom.png-PhotoRoom-fotor-bg-remover-2023111618732.png);
     position: relative;
-    height: 95vh;
+    height: 85vh;
     background-position-x: 50%;
+    background-position-y: 35%;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 470px;
-    background-size: calc(160%);
+    background-size: calc(180%);
+    width: 380px;
  
  
 }
